@@ -1,4 +1,4 @@
-/*****************************************************
+/**********************************************************************************************************
 * CSS Mockup Activity - Custom CSS Stylesheet
 * @author rlewis37
 *
@@ -62,5 +62,114 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 
+header > div  {
+	background-color: black;
+	color: lawngreen;
+
+
+}
+
+header > div > em {
+	display: inline-flex;
+}
+[src="images/welcome.gif"]{
+	display: block;
+	margin: auto;
+}
+
+.instructions-wrapper{
+	border: black 3px  solid;
+
+}
+.instructions-content{
+	float: left;
+	width: 50%;
+	font-family: monospace;
+	padding-left: 10px;
+}
+
+[src="images/captain-janeway.png"]{
+	float: right;
+	width: 20%;
+	margin: 20px;
+
+}
+.clearfix::after {
+	content: "";
+	clear: both;
+	/*display: table;*/
+}
+.about-me{
+	background-color: blue;
+	padding: 20px;
+}
+
+[src="images/stunning.jpg"]{
+	float: left;
+	width: 20%;
+	margin-right: 20px;
+
+}
+
+/**
+** Styling the Table
+ */
+.container > h2{
+	text-align: right;
+	font-family: monospace;
+	font-size: .9em;
+}
+table {
+	background-color: black;
+	color: lawngreen;
+	width: 100%;
+	font-family: monospace;
+	border-collapse: collapse;
+	font-size: .9em;
+
+}
+table, th, td {
+	border: 1px solid white;
+	padding: 5px;
+}
+th{
+	text-align: left;
+}
+
+/**
+** Styling the form
+ */
+
+.sfooter section:nth-child(5){
+	background-color: rgba(0,0,0,.7);
+	margin-top: 20px;
+
+}
+.form-wrapper{
+	background-color: green;
+	font-family: monospace;
+	display: block;
+	padding: 20px;
+	margin: auto;
+
+
+
+
+
+}
+label{
+	display: block;
+	color: lawngreen;
+
+}
+[type="submit"], [type="reset"]{
+	background-color: lawngreen;
+}
+
+footer{
+	background-color: black;
+	color: white;
+	text-align: center;
+}
 
 
