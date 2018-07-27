@@ -6,7 +6,7 @@
 * Create your own custom CSS rules below. Have fun!
 ******************************************************/
 html, body {
-	margin: 0;
+	margin: auto;
 	box-sizing: border-box;
 }
 
@@ -61,31 +61,32 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
-
-header > div  {
+header{
 	background-color: black;
 	color: lawngreen;
 
-
+}
+header h1{
+	display: inline-block;
+	margin-right: 1em;
 }
 
-header > div > em {
-	display: inline-flex;
-}
+
 [src="images/welcome.gif"]{
 	display: block;
 	margin: auto;
 }
 
 .instructions-wrapper{
-	border: black 3px  solid;
+	border: black .2em  solid;
+	margin-bottom: 1em;
 
 }
 .instructions-content{
 	float: left;
 	width: 50%;
 	font-family: monospace;
-	padding-left: 10px;
+	padding-left: .6em;
 }
 
 [src="images/captain-janeway.png"]{
@@ -97,6 +98,7 @@ header > div > em {
 .clearfix::after {
 	content: "";
 	clear: both;
+
 	/*display: table;*/
 }
 .about-me{
@@ -170,6 +172,7 @@ footer{
 	background-color: black;
 	color: white;
 	text-align: center;
+	font-size: 70%;
 }
 
 
